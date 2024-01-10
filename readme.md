@@ -1,6 +1,34 @@
-# Descripción del Proyecto
+# Proyecto de Scraping y Análisis de Datos
 
-Este proyecto es una aplicación en Python que lee un archivo ZIP, extrae uno de los archivos XLSX contenidos y lo convierte en un archivo CSV.
+Este proyecto consiste en dos scripts en Python que realizan scraping de una página web para descargar datos y luego analizan esos datos para generar un archivo CSV.
+
+## Archivos
+
+1. **scrap.py**: Contiene funciones para realizar el scraping de una página web utilizando Selenium y descargar datos relevantes.
+
+2. **crear_csv.py**: Extrae y convierte datos descargados en un archivo ZIP a un archivo CSV utilizando bibliotecas como pandas y openpyxl.
+
+## Uso
+
+1. Ejecuta `scrap.py` para realizar el scraping y descargar los datos en un archivo ZIP llamado `victims.zip`.
+
+2. Después de la descarga, ejecuta `crear_csv.py` para extraer y convertir los datos del archivo ZIP a un archivo CSV llamado `Victims_Age_by_Offense_Category_2022.csv`.
+
+3. Asegúrate de tener todas las dependencias instaladas. Puedes instalarlas ejecutando `pip install -r requirements.txt`.
+
+## Requisitos
+
+- Python 3.x
+- Bibliotecas especificadas en `requirements.txt`
+
+## Configuración
+
+- Ajusta las rutas y configuraciones necesarias en los archivos según tus necesidades.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si tienes sugerencias, problemas o mejoras, no dudes en crear un problema o enviar una solicitud de extracción.
+
 
 # Instrucciones de Uso
 
